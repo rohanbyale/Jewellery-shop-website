@@ -6,4 +6,24 @@
 
 .bg-terracotta-gradient {
   background: linear-gradient(135deg, #a64d35 0%, #8c3a26 100%);
+
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-snap-type: y proximity;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+::selection {
+  background: #d4af37; /* metallic gold */
+  color: #000;
+}
+
+
