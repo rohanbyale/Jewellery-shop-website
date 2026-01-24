@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400;1,600&family=Inter:wght@300;400;600&display=swap'); */
+
+.font-serif-italic { font-family: 'Cormorant Garamond', serif; font-style: italic; }
+.font-sans { font-family: 'Inter', sans-serif; }
+
+.bg-terracotta-gradient {
+  background: linear-gradient(135deg, #a64d35 0%, #8c3a26 100%);
+}
