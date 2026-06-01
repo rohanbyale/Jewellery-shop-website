@@ -6,7 +6,7 @@ import { ShieldCheck, Gem, PenTool, Sparkles, ArrowRight } from 'lucide-react';
 const ArtisanHeritage = () => {
   const navigate = useNavigate();
   
-  // Subtle parallax for a tighter feel
+  
   const { scrollYProgress } = useScroll();
   const y1 = useTransform(scrollYProgress, [0, 1], [0, -30]);
   const y2 = useTransform(scrollYProgress, [0, 1], [0, 30]);
